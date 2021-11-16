@@ -19,10 +19,22 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
+  border: 1px outset gray;
+  margin: 0.5rem;
+  border-radius: 6px;
 }
 
 .app_left {
   flex: 0.9;
+  margin-right: 2rem;
+}
+.app_right {
+  flex: 0.4;
+}
+
+.graph_header {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 992px) {

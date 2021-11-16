@@ -97,7 +97,7 @@ function App() {
         <CardContent>
           <h3>Live Cases by Country</h3>
           <Table countries={tableData} />
-          <h3>Worldwide New Cases</h3>
+          <h3 className="graph_header">Worldwide New Cases</h3>
           <Graph />
         </CardContent>
       </Card>
