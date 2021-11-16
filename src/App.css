@@ -3,5 +3,30 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  padding: 1rem;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.app_left {
+  flex: 0.9;
+}
+
+@media screen and (max-width: 992px) {
+  .app {
+    flex-direction: column;
+  }
 }
